@@ -1,0 +1,5 @@
+Suggested addition to https://jmeter-plugins.org/wiki/ConcurrencyThreadGroup/
+
+When this thread group is used with <a href=“https://jmeter-plugins.org/wiki/ThroughputShapingTimer”>
+Throughput Shaping Timer</a>, you may replace Target Concurrency value with a call to the __tstFeedback 
+function in order to make this thread group dynamically maintain thread count needed to achieve target RPS.
