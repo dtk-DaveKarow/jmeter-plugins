@@ -1,0 +1,4 @@
+Suggested edit to end of https://jmeter-plugins.org/wiki/ThroughputShapingTimer
+
+If spare threads parameter is a float value <1, then it is interpreted as a relative ratio.  
+If above 1, it is interpreted as an absolute count.
